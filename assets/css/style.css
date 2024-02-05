@@ -274,7 +274,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/bg0.jpeg") top right no-repeat;
+  background: url("/assets/img/bg.png") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -288,7 +288,7 @@ h6 {
 @media  screen and (max-width: 986px) {
   #hero{
   min-height:400px;
-  background:url('/assets/img/bg0.jpeg') no-repeat  -100px;
+  background:url("/assets/img/bg.png") no-repeat  -100px;
   max-width: 100%;
   height: auto;
   display:block;
@@ -599,7 +599,7 @@ section {
 
 @media screen and (max-width: 1366px)  {
   #resumeid{
-    /* background: url("/assets/img/bg3.png") no-repeat;  */
+    background: url("/assets/img/bg3.png") no-repeat; 
     padding: 20%;
   }
   #resumebtn {
@@ -613,7 +613,7 @@ section {
 
 @media only screen and (max-width: 786px){
   #resumeid{
-    /* background: url("/assets/img/bg3.png") no-repeat;  */
+    background: url("/assets/img/bg3.png") no-repeat; 
     padding: 40%;
   }
   #resumebtn {
