@@ -307,7 +307,7 @@ h6 {
 @media  screen and (max-width: 986px) {
   #hero{
   min-height:400px;
-  background:url("assets/img/bg.png") no-repeat  -100px;
+  background:url("/assets/img/bg.png") no-repeat  -100px;
   max-width: 100%;
   height: auto;
   display:block;
@@ -605,7 +605,7 @@ section {
   background: #fff;
   border: 2px solid #0563bb;
 }
-#resumeid{
+/* #resumeid{
   background: url("assets/img/bg3.png")  no-repeat;
   display: flex ;
   float: left;
@@ -641,7 +641,7 @@ section {
     display: block;
     
   }
-}
+} */
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
